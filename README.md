@@ -30,6 +30,6 @@ Completed objectives:
 •	Implement a skybox that will add to the realism of the scene and increase immersion for the player.
 
 Report Link: https://docs.google.com/document/d/1yo-ualbECOTzZEzXjaDb84w4YCJa_uaTB2cpxA3-Xb4/edit?usp=sharing
-Screenshots link: https://imgur.com/a/HTYPs
+Screenshots link: https://imgur.com/a/CPYRa
 
 **VRTK asset README inside the VRTK-Capstone Folder**
