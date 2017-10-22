@@ -1,0 +1,143 @@
+5-2-2017
+Added a condition back to KinematicToggle that fixed blue objects ignoring collisions
+when inside of each other (was removed in the 4-28 version)
+
+4-28-2017
+Cleaned and commented most of the code
+
+4-27-2017
+Fixed lag by replacing  tables, changed KinematicToggle and SpawnObject
+to be more efficient
+
+4-24-2017
+Fixed Archery Minigame bug where the Arrows wouldn't
+go through the invisible walls by adding a collision
+layer between the wall and arrows
+
+4-22-2017
+After demo changes - Rotated Tutorial signs to be more user friendly,
+changed Tutorial so that the cube respawns. Added mesh collider to
+fireplace, moved object tables closer to center of the house, cleaned
+scripts up, updates Archery minigame (should allow more than one target
+with any speed). Confined the area the player (and Targets) can go to
+with invisible walls. Might have fixed players being able to walk
+through walls.
+
+4-21-2017
+Minor demo changes - increased teleporter length and added Shethan
+(created by another student).
+		
+4-13-2017 **Demo Ready**
+Updated Tutorial and added Bow and Arrow instructions. Added Bow
+spawner. Minor Archery minigame changes.
+
+4-12-2017
+Updated Archery minigame and worked on Target collision bug.
+	
+4-10-2017 Part2
+Removed Triangle and Right Triangle objects from the game (collision
+issues with other Blender object, Cone was kept as the only Blender
+object). Bug with the Archery minigame where the targets would collide
+with each other on spawn and move each other. Added more information in
+the Tutorial.
+	
+4-10-2017 Part1
+Fully integrated the new house with new textures and furniture into the
+scene. Added a new fire with logs in the fireplace. Added new shapes
+(made from Blender for the players to use: Triangle, Right Triangle and
+Cone). Achery minigame changes.
+
+4-9-2017
+Large Asset cleanup. Started incorperating the new house. Tutorial added
+in one of the past updates (not finished).
+
+4-6-2017 **KinematicToggle Functionality Complete**
+Fixed a bug where two objects that once had their collision ignored,
+never stopped ignoring future collisions when both objects had their
+Kinematic setting set to false. Solved by first ignoring a collision on
+OnCollisionEnter when at least one of the two objects had its Kinematic
+setting set to true. Then using OnTriggerEnter to check if the ignored
+collision between the two objects needed to stop being ignored (both
+objects had their Kinematic setting set to false). This required each
+object prefab to have a normal box collider as well as a trigger
+collider. Replaced the Terrain mountain with a mountain Skybox. Minor
+Archery minigame changes.
+**Removed NaturalTillingTextures asset to save space**
+
+3-29-2017
+Adjusted KinematicToggle so it changes to object's color to green when
+its Kinematic setting is true (blue when Kinematic is false). Started
+working on ignoring collisions between the objects if at least one of
+the objects Kinematic setting is set to true (object is green). Replaced
+old doors with the new Hinge Joint doors.
+**Removed NaturalTillingTextures asset to save space**
+
+3-21-2017
+Minor adjustments to Archery minigame.
+**Removed NaturalTillingTextures asset to save space**
+
+3-20-2017
+Started to add Archery minigame. Added Target Prefab, Target spawning
+area and scripts to spawn, move, rotate and destroy the Targets.
+**Removed NaturalTillingTextures asset to save space**
+
+3-6-2017
+Added Arrow Spawner and new Hinge Joint Door. Swapped the Fixed Joint
+Grab Attach script the objects were using for the Track Object Grab
+Attach script so that the player wouldnt drop objects on collision.
+Slight Asset cleanup.
+**Removed NaturalTillingTextures asset to save space**
+
+3-3-2017 *KinematicToggle working*
+Created the ShapeSpawner script that all the object tables can use to
+spawn their respective shapes instead of each table having a unique
+script. Solved KinematicToggle bug by changing Kinematic setting of the
+object on "Ungrabbed" rather than when "Used" with the trigger. This
+needed to happen because the InteractableObject script required the
+Kinematic setting of the object being interacted with to be set to
+false. So when the trigger is used while holding an object a kinematic
+bool is inverted and on "Ungrabbed" the Kinematic setting of the used
+object is set to what the kinematic bool is.
+**Removed NaturalTillingTextures asset to save space**
+
+3-2-2017
+First "working" version of KinematicToggle. Would switch Kinematic
+settings while being held which resulted in the controller letting go of
+the object.
+**Removed NaturalTillingTextures asset to save space**
+
+2-28-2017
+Created new Terrain mountains. Started working to add functionality to
+KinematicToggle (not working).
+**Removed NaturalTillingTextures asset to save space**
+
+2-23-2017
+Added Bow and Arrow.
+**Removed NaturalTillingTextures asset to save space**
+
+2-22-2017
+Changed fire, started working on the KinematicToggle script. Started the
+shape spawning scripts.
+**Removed NaturalTillingTextures asset to save space**
+
+2-21-2017
+Added fire Particle System that destroys Interactable Objects on
+collision.
+**Removed NaturalTillingTextures asset to save space**
+
+2-19-2017 Part2
+Minor Terrain moutain changes.
+**Removed NaturalTillingTextures asset to save space**
+
+2-19-2017 Part1
+Created new Terrain mountains. Added doors that open when using the
+trigger on them. Resized some of the shapes.
+**Removed NaturalTillingTextures asset to save space**
+
+2-16-2017
+Creared Terrain mountains with trees. Added some textures to the house.
+Made the shapes interactable. Camera Rig sized to play area space.
+
+Initial Project
+Basic scene set up with VRTK asset added. Camera Rig and template house
+implemented with object mountains. Shapes have no functionality.
