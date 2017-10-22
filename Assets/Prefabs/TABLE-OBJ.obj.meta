@@ -1,0 +1,227 @@
+fileFormatVersion: 2
+guid: 8a5e68a14ce4f4e4089367d9fb9d88ab
+timeCreated: 1491662664
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: TABLE_Extrude_NURBS
+    100004: TABLE_Extrude_NURBS_1
+    100006: TABLE_Extrude_NURBS_1_Rounding_12
+    100008: TABLE_Extrude_NURBS_1_Rounding_12_Cap_12
+    100010: TABLE_Extrude_NURBS_1_Rounding_22
+    100012: TABLE_Extrude_NURBS_1_Rounding_22_Cap_22
+    100014: TABLE_Extrude_NURBS_2
+    100016: TABLE_Extrude_NURBS_2_Rounding_15
+    100018: TABLE_Extrude_NURBS_2_Rounding_15_Cap_15
+    100020: TABLE_Extrude_NURBS_2_Rounding_25
+    100022: TABLE_Extrude_NURBS_2_Rounding_25_Cap_25
+    100024: TABLE_Extrude_NURBS_3
+    100026: TABLE_Extrude_NURBS_3_Rounding_1
+    100028: TABLE_Extrude_NURBS_3_Rounding_1_Cap_1
+    100030: TABLE_Extrude_NURBS_3_Rounding_2
+    100032: TABLE_Extrude_NURBS_3_Rounding_2_Cap_2
+    100034: TABLE_Extrude_NURBS_4
+    100036: TABLE_Extrude_NURBS_4_Rounding_14
+    100038: TABLE_Extrude_NURBS_4_Rounding_14_Cap_14
+    100040: TABLE_Extrude_NURBS_4_Rounding_24
+    100042: TABLE_Extrude_NURBS_4_Rounding_24_Cap_24
+    100044: TABLE_Extrude_NURBS_5
+    100046: TABLE_Extrude_NURBS_5_Rounding_13
+    100048: TABLE_Extrude_NURBS_5_Rounding_13_Cap_13
+    100050: TABLE_Extrude_NURBS_5_Rounding_23
+    100052: TABLE_Extrude_NURBS_5_Rounding_23_Cap_23
+    100054: TABLE_Extrude_NURBS_Rounding_11
+    100056: TABLE_Extrude_NURBS_Rounding_11_Cap_11
+    100058: TABLE_Extrude_NURBS_Rounding_21
+    100060: TABLE_Extrude_NURBS_Rounding_21_Cap_21
+    400000: //RootNode
+    400002: TABLE_Extrude_NURBS
+    400004: TABLE_Extrude_NURBS_1
+    400006: TABLE_Extrude_NURBS_1_Rounding_12
+    400008: TABLE_Extrude_NURBS_1_Rounding_12_Cap_12
+    400010: TABLE_Extrude_NURBS_1_Rounding_22
+    400012: TABLE_Extrude_NURBS_1_Rounding_22_Cap_22
+    400014: TABLE_Extrude_NURBS_2
+    400016: TABLE_Extrude_NURBS_2_Rounding_15
+    400018: TABLE_Extrude_NURBS_2_Rounding_15_Cap_15
+    400020: TABLE_Extrude_NURBS_2_Rounding_25
+    400022: TABLE_Extrude_NURBS_2_Rounding_25_Cap_25
+    400024: TABLE_Extrude_NURBS_3
+    400026: TABLE_Extrude_NURBS_3_Rounding_1
+    400028: TABLE_Extrude_NURBS_3_Rounding_1_Cap_1
+    400030: TABLE_Extrude_NURBS_3_Rounding_2
+    400032: TABLE_Extrude_NURBS_3_Rounding_2_Cap_2
+    400034: TABLE_Extrude_NURBS_4
+    400036: TABLE_Extrude_NURBS_4_Rounding_14
+    400038: TABLE_Extrude_NURBS_4_Rounding_14_Cap_14
+    400040: TABLE_Extrude_NURBS_4_Rounding_24
+    400042: TABLE_Extrude_NURBS_4_Rounding_24_Cap_24
+    400044: TABLE_Extrude_NURBS_5
+    400046: TABLE_Extrude_NURBS_5_Rounding_13
+    400048: TABLE_Extrude_NURBS_5_Rounding_13_Cap_13
+    400050: TABLE_Extrude_NURBS_5_Rounding_23
+    400052: TABLE_Extrude_NURBS_5_Rounding_23_Cap_23
+    400054: TABLE_Extrude_NURBS_Rounding_11
+    400056: TABLE_Extrude_NURBS_Rounding_11_Cap_11
+    400058: TABLE_Extrude_NURBS_Rounding_21
+    400060: TABLE_Extrude_NURBS_Rounding_21_Cap_21
+    2300000: TABLE_Extrude_NURBS
+    2300002: TABLE_Extrude_NURBS_1
+    2300004: TABLE_Extrude_NURBS_1_Rounding_12
+    2300006: TABLE_Extrude_NURBS_1_Rounding_12_Cap_12
+    2300008: TABLE_Extrude_NURBS_1_Rounding_22
+    2300010: TABLE_Extrude_NURBS_1_Rounding_22_Cap_22
+    2300012: TABLE_Extrude_NURBS_2
+    2300014: TABLE_Extrude_NURBS_2_Rounding_15
+    2300016: TABLE_Extrude_NURBS_2_Rounding_15_Cap_15
+    2300018: TABLE_Extrude_NURBS_2_Rounding_25
+    2300020: TABLE_Extrude_NURBS_2_Rounding_25_Cap_25
+    2300022: TABLE_Extrude_NURBS_3
+    2300024: TABLE_Extrude_NURBS_3_Rounding_1
+    2300026: TABLE_Extrude_NURBS_3_Rounding_1_Cap_1
+    2300028: TABLE_Extrude_NURBS_3_Rounding_2
+    2300030: TABLE_Extrude_NURBS_3_Rounding_2_Cap_2
+    2300032: TABLE_Extrude_NURBS_4
+    2300034: TABLE_Extrude_NURBS_4_Rounding_14
+    2300036: TABLE_Extrude_NURBS_4_Rounding_14_Cap_14
+    2300038: TABLE_Extrude_NURBS_4_Rounding_24
+    2300040: TABLE_Extrude_NURBS_4_Rounding_24_Cap_24
+    2300042: TABLE_Extrude_NURBS_5
+    2300044: TABLE_Extrude_NURBS_5_Rounding_13
+    2300046: TABLE_Extrude_NURBS_5_Rounding_13_Cap_13
+    2300048: TABLE_Extrude_NURBS_5_Rounding_23
+    2300050: TABLE_Extrude_NURBS_5_Rounding_23_Cap_23
+    2300052: TABLE_Extrude_NURBS_Rounding_11
+    2300054: TABLE_Extrude_NURBS_Rounding_11_Cap_11
+    2300056: TABLE_Extrude_NURBS_Rounding_21
+    2300058: TABLE_Extrude_NURBS_Rounding_21_Cap_21
+    3300000: TABLE_Extrude_NURBS
+    3300002: TABLE_Extrude_NURBS_1
+    3300004: TABLE_Extrude_NURBS_1_Rounding_12
+    3300006: TABLE_Extrude_NURBS_1_Rounding_12_Cap_12
+    3300008: TABLE_Extrude_NURBS_1_Rounding_22
+    3300010: TABLE_Extrude_NURBS_1_Rounding_22_Cap_22
+    3300012: TABLE_Extrude_NURBS_2
+    3300014: TABLE_Extrude_NURBS_2_Rounding_15
+    3300016: TABLE_Extrude_NURBS_2_Rounding_15_Cap_15
+    3300018: TABLE_Extrude_NURBS_2_Rounding_25
+    3300020: TABLE_Extrude_NURBS_2_Rounding_25_Cap_25
+    3300022: TABLE_Extrude_NURBS_3
+    3300024: TABLE_Extrude_NURBS_3_Rounding_1
+    3300026: TABLE_Extrude_NURBS_3_Rounding_1_Cap_1
+    3300028: TABLE_Extrude_NURBS_3_Rounding_2
+    3300030: TABLE_Extrude_NURBS_3_Rounding_2_Cap_2
+    3300032: TABLE_Extrude_NURBS_4
+    3300034: TABLE_Extrude_NURBS_4_Rounding_14
+    3300036: TABLE_Extrude_NURBS_4_Rounding_14_Cap_14
+    3300038: TABLE_Extrude_NURBS_4_Rounding_24
+    3300040: TABLE_Extrude_NURBS_4_Rounding_24_Cap_24
+    3300042: TABLE_Extrude_NURBS_5
+    3300044: TABLE_Extrude_NURBS_5_Rounding_13
+    3300046: TABLE_Extrude_NURBS_5_Rounding_13_Cap_13
+    3300048: TABLE_Extrude_NURBS_5_Rounding_23
+    3300050: TABLE_Extrude_NURBS_5_Rounding_23_Cap_23
+    3300052: TABLE_Extrude_NURBS_Rounding_11
+    3300054: TABLE_Extrude_NURBS_Rounding_11_Cap_11
+    3300056: TABLE_Extrude_NURBS_Rounding_21
+    3300058: TABLE_Extrude_NURBS_Rounding_21_Cap_21
+    4300000: TABLE_Extrude_NURBS
+    4300002: TABLE_Extrude_NURBS_1
+    4300004: TABLE_Extrude_NURBS_1_Rounding_12
+    4300006: TABLE_Extrude_NURBS_1_Rounding_12_Cap_12
+    4300008: TABLE_Extrude_NURBS_1_Rounding_22
+    4300010: TABLE_Extrude_NURBS_1_Rounding_22_Cap_22
+    4300012: TABLE_Extrude_NURBS_2
+    4300014: TABLE_Extrude_NURBS_2_Rounding_15
+    4300016: TABLE_Extrude_NURBS_2_Rounding_15_Cap_15
+    4300018: TABLE_Extrude_NURBS_2_Rounding_25
+    4300020: TABLE_Extrude_NURBS_2_Rounding_25_Cap_25
+    4300022: TABLE_Extrude_NURBS_3
+    4300024: TABLE_Extrude_NURBS_3_Rounding_1
+    4300026: TABLE_Extrude_NURBS_3_Rounding_1_Cap_1
+    4300028: TABLE_Extrude_NURBS_3_Rounding_2
+    4300030: TABLE_Extrude_NURBS_3_Rounding_2_Cap_2
+    4300032: TABLE_Extrude_NURBS_4
+    4300034: TABLE_Extrude_NURBS_4_Rounding_14
+    4300036: TABLE_Extrude_NURBS_4_Rounding_14_Cap_14
+    4300038: TABLE_Extrude_NURBS_4_Rounding_24
+    4300040: TABLE_Extrude_NURBS_4_Rounding_24_Cap_24
+    4300042: TABLE_Extrude_NURBS_5
+    4300044: TABLE_Extrude_NURBS_5_Rounding_13
+    4300046: TABLE_Extrude_NURBS_5_Rounding_13_Cap_13
+    4300048: TABLE_Extrude_NURBS_5_Rounding_23
+    4300050: TABLE_Extrude_NURBS_5_Rounding_23_Cap_23
+    4300052: TABLE_Extrude_NURBS_Rounding_11
+    4300054: TABLE_Extrude_NURBS_Rounding_11_Cap_11
+    4300056: TABLE_Extrude_NURBS_Rounding_21
+    4300058: TABLE_Extrude_NURBS_Rounding_21_Cap_21
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
